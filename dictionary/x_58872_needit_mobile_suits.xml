@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="Mobile Suits" max_length="40" name="x_58872_needit_mobile_suits" type="collection">
+        <element label="Mobile Suit" mandatory="true" max_length="1000" name="mobile_suit" type="string"/>
+        <element label="Model Number" mandatory="true" max_length="1000" name="model_number" type="string"/>
+        <element label="Profile" max_length="40" name="profile" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="New URL" max_length="1024" name="u_url_1" type="url"/>
+    </element>
+</database>
